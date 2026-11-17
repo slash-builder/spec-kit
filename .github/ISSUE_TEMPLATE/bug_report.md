@@ -9,4 +9,4 @@ about: Something does not behave as the spec or the docs say
 
 **What happened**
 
-**Where** (Dart core, Flutter companion or Rust crate; version; operating system)
+**Where** (library or command-line tool; version; operating system)
