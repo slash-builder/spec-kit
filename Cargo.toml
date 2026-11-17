@@ -1,0 +1,33 @@
+[package]
+name = "slashbuilder-spec-kit"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.74"
+description = "Protocol-specification methodology and conformance harness primitives for the SlashBuilder Kit ecosystem"
+repository = "https://github.com/slash-builder/spec-kit"
+license = "Apache-2.0"
+readme = "README.md"
+keywords = ["spec", "conformance", "protocol", "versioning", "testing"]
+categories = ["development-tools", "command-line-utilities"]
+# An allow-list, not an exclude: nothing but the library, the CLI, the docs and the licence can ship by accident.
+include = ["/src/", "/README.md", "/LICENSE", "/CHANGELOG.md"]
+
+# The library keeps the short name `spec_kit` so `use spec_kit::conformance::{Case, run_suite}` is unchanged for every Kit
+# that imports the harness; only the published package name carries the `slashbuilder-` prefix.
+[lib]
+name = "spec_kit"
+path = "src/lib.rs"
+
+[[bin]]
+name = "spec-kit"
+path = "src/bin/spec-kit.rs"
+
+[dependencies]
+clap = { version = "4", features = ["derive"] }
+serde = { version = "1.0", features = ["derive"] }
+semver = { version = "1.0", features = ["serde"] }
+pulldown-cmark = "0.10"
+thiserror = "1.0"
+
+[dev-dependencies]
+pretty_assertions = "1.4"
