@@ -26,4 +26,4 @@ This project is pre-1.0. **Only the latest release and the latest commit of `mai
 
 In scope: the code, the spec and the documentation in **this repository**: the Rust crate (library and CLI) and the documentation.
 
-Out of scope: third-party services and software (GitHub, Flutter, Dart, Rust and their packages) and any other software the Kit can be used with. A problem there belongs with its owners. If you are not sure where something belongs, report it here, privately.
+Out of scope: third-party services and software (GitHub, Rust and its packages) and any other software the Kit can be used with. A problem there belongs with its owners. If you are not sure where something belongs, report it here, privately.
