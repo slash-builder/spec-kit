@@ -1,6 +1,6 @@
 [package]
 name = "slashbuilder-spec-kit"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 rust-version = "1.74"
 description = "Protocol-specification methodology and conformance harness primitives for the SlashBuilder Kit ecosystem"
