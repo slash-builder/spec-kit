@@ -8,6 +8,12 @@ adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.1](https://github.com/slash-builder/spec-kit/compare/v0.1.0...v0.1.1) - 2026-11-18
+
+### Fixed
+
+- README no longer says the Kit ecosystem includes Dart libraries ([#8](https://github.com/slash-builder/spec-kit/pull/8))
+
 ### Frozen — interface lock, 2026-08-26
 
 The **`conformance` module is locked** by data-architect ruling, effective
