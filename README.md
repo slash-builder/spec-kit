@@ -128,7 +128,7 @@ suggests CC-BY-4.0 or Apache-2.0 for the spec text.
 ## About
 
 Spec Kit is part of the **SlashBuilder Kit ecosystem** — a set of
-reusable Rust and Dart libraries built around the BeOS-style "Kit"
+reusable Rust libraries built around the BeOS-style "Kit"
 pattern. Each Kit owns a self-contained domain (storage, messaging,
 identity, fabric, devices, app store, design); products are composed
 from Kits. Spec Kit sits at the governance root: it's a build/test
