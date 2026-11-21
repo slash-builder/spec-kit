@@ -37,7 +37,7 @@ cargo clippy --all-targets --all-features -- -D warnings
 cargo run -- new my-protocol      # try the CLI
 ```
 
-Requires Rust 1.74 or newer. No other system dependencies.
+Requires Rust 1.85 or newer. No other system dependencies.
 
 ## Code style
 

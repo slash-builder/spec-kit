@@ -106,7 +106,7 @@ make all          # build + lint + test
 make run -- new my-protocol   # try the CLI
 ```
 
-Requires a recent stable Rust toolchain (1.74+). See the `Makefile` for
+Requires a recent stable Rust toolchain (1.85+). See the `Makefile` for
 the full target list.
 
 ## Contributing
