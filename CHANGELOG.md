@@ -8,6 +8,15 @@ adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.2](https://github.com/slash-builder/spec-kit/compare/v0.1.1...v0.1.2) - 2026-11-21
+
+### Other
+
+- *(deps)* Bump thiserror from 1.0.69 to 2.0.21 ([#4](https://github.com/slash-builder/spec-kit/pull/4))
+- *(deps)* Bump clap from 4.5.61 to 4.6.8 ([#5](https://github.com/slash-builder/spec-kit/pull/5))
+- raise the minimum supported Rust version to 1.85 ([#11](https://github.com/slash-builder/spec-kit/pull/11))
+- *(deps)* Bump pulldown-cmark from 0.10.3 to 0.13.6 ([#2](https://github.com/slash-builder/spec-kit/pull/2))
+
 ## [0.1.1](https://github.com/slash-builder/spec-kit/compare/v0.1.0...v0.1.1) - 2026-11-18
 
 ### Fixed
