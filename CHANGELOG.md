@@ -8,6 +8,12 @@ adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.2](https://github.com/slash-builder/spec-kit/compare/v0.1.1...v0.1.2) - 2026-11-21
+
+### Other
+
+- *(deps)* Bump pulldown-cmark from 0.10.3 to 0.13.6 ([#2](https://github.com/slash-builder/spec-kit/pull/2))
+
 ## [0.1.1](https://github.com/slash-builder/spec-kit/compare/v0.1.0...v0.1.1) - 2026-11-18
 
 ### Fixed
