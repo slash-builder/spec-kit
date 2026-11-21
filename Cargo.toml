@@ -27,7 +27,7 @@ clap = { version = "4", features = ["derive"] }
 serde = { version = "1.0", features = ["derive"] }
 semver = { version = "1.0", features = ["serde"] }
 pulldown-cmark = "0.13"
-thiserror = "1.0"
+thiserror = "2.0"
 
 [dev-dependencies]
 pretty_assertions = "1.4"
